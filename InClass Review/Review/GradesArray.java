@@ -8,6 +8,11 @@ public class GradesArray {
         int num = Integer.parseInt(console.nextLine());
         System.out.println();
 
+        ArrayList<String> courses = new ArrayList<>();
+        ArrayList<Integer> hours = new ArrayList<>();
+        ArrayList<Integer> scores = new ArrayList<>();
+        ArrayList<Character> grades = new ArrayList<>();
+
         String[] courses = new String[num];
         int[] hours = new int[num];
         int[] scores = new int[num];
