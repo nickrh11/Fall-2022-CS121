@@ -1,0 +1,25 @@
+Nick Hively
+
+Class BigO
+	method O1(Int N)
+		Print(N)
+
+	method On(Int N)
+		String = "Phrase to Print"
+		for loop (i=1 to N)
+			Print String
+		Next i
+
+	method On^2(Int N)
+		String = "Phrase to Print"
+		for loop (i=1 to N)
+			for loop (j=1 to N)
+			Print String
+			Next j
+		Next i
+
+Class Test
+	method main()
+		example.O1(1)
+		example.On(5)
+		example.On^2(5)
