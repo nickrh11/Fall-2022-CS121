@@ -1,0 +1,13 @@
+Recursive Paleindrome Detector
+
+Input String
+
+Boolean IsThisPalindrome(String, Int = 0)
+	\\Check First Character and Last Character are the same
+	If String(Int) does not equal (String(LengthString-Int)
+		IsThisPalindrome = FALSE
+	Else IF Int=Length of String/2
+		IsThisPalindrome = TRUE
+	Else
+		IsThisPalindrome(String, Int++)
+	
